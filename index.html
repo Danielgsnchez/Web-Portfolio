@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Daniel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=UnifrakturMaguntia&display=swap" rel="stylesheet"> <!--Fuentes-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png"> <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png"> <!--Favicon-->
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png"> <!--Favicon-->
+    <link rel="manifest" href="img/site.webmanifest"> <!--Favicon-->
+    <link rel="stylesheet" href="css/estilos.css"><!--Estilos-->
+    <script defer src="js/funciones.js"></script><!--JavaScript-->
+</head>
+<body>
+    <header> <!-- contenedor del header-->
+        <div class="contenedor-header"> <!-- contenido del header (h1+nav)-->
+            <p><a class="logo-header" href="#">Daniel</a></p> <!-- "logo" que lleva al top cuando haces click-->
+            <button class="boton-movil-header" id="menu-abrir"><img src="img/icono-menu.svg"></button> <!--boton hamburguesa-->
+            <button class="boton-movil-header oculto" id="menu-cerrar"><img src="img/icono-cerrar.svg"></button> <!--boton cerrar-->
+            <nav class="nav-header">
+                <ul>  <!-- lista desordenada que navega a las secciones-->
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#Seccion-SobreMi">Sobre mí</a></li>
+                    <li><a href="#Seccion-Portfolio">Portfolio</a></li>
+                    <li><a href="#Seccion-Contacto">Contacto</a></li>
+                    <li><a class="boton-azul texto-mas-grande" href="descargas/Daniel Guio Sánchez CV + Recomendacion.pdf" download="Daniel Guio Sánchez - Currículum">Currículum <img class="margin-left4px" src="img/icono-descarga.svg"></a></li> <!--boton de descarga CV-->
+                </ul>
+            </nav>
+            <a class="boton-redondo boton-navegacion-top" href="#"><img src="img/icono-flecha.svg" alt=""></a>
+        </div>
+    </header>
+    <section class="Seccion-row color-gris"> <!--Primer bloque introductorio -->
+        <div class="contenedorBloqueTexto"> <!--Texto + Imagen-->
+            <img src="img/imagen_principal.png" alt="Icono circular de un chico rubio sonriente en el medio" class="icono-principal">
+            <div class="caja-generica-texto"><!--Caja con h2 animado+p-->
+                <h1 class="texto-animado">¡Hola! Me llamo Daniel y soy <span></span></h1>
+                <p class="parrafos-texto margin-bottom-28px">Soy Daniel, un diseñador gráfico, preimpresor y desarrollador web con una fuerte pasión por el diseño enfocado en la innovación y la usabilidad.
+                    <br><br>
+                    Con una mezcla de creatividad y habilidades técnicas, ayudo a las marcas a transformar conceptos e ideas complejas en soluciones simples.</p>
+                    <a class="boton-azul" href="descargas/Daniel Guio Sánchez CV + Recomendacion.pdf" download="Daniel Guio Sánchez - Currículum">Currículum <img class="margin-left4px" src="img/icono-descarga.svg"></a>
+            </div>
+        </div>
+    </section>
+    <section id="Seccion-SobreMi" class="Seccion-column color-gris-oscuro"> <!--Seccion Sobre mí, incluye Sobre mi + Mis habilidades + Mi experiencia-->
+        <div class="Sobre-mi-y-Mis-habilidades"> <!--Agrupacion de Sobre mi +  Mis habilidades-->
+            <div class="caja-generica-texto Sobre-mi"><!--Caja con h2+p-->
+                <h2 class="titulos-texto">Sobre mí</h2>
+                <p class="parrafos-texto overflow-y-Sobre-Mi">Soy Daniel, un apasionado diseñador gráfico y desarrollador web con dos años de experiencia en la industria. Mi carrera comenzó desde pequeño con un amor por el arte y la tecnología, y he tenido la suerte de convertir esa pasión en una profesión.
+                    <br><br>
+                    Tengo un profundo conocimiento de herramientas de diseño como Adobe Creative Suite, así como habilidades técnicas en HTML, CSS y JavaScript. Esta combinación me permite abordar proyectos desde múltiples ángulos y encontrar soluciones innovadoras a los desafíos de diseño y desarrollo.
+                    Cada proyecto que afronto es una oportunidad para aprender y crecer, y me esfuerzo por mantenerme al día con las últimas tendencias y tecnologías en el campo del diseño y desarrollo web.
+                    </p>
+            </div>
+            <div class="contenedor-grid"> <!--contenedor del grid con todo el interior-->
+                <h2 class="titulos-texto">Mis habilidades</h2>
+                <div class="grid-caja-habilidades"> <!--Contenedor con cada cuadradito individual-->
+                <div class="caja-habilidades texto-cajas"><img src="img/logo-html5.svg"><p>HTML5</p></div>
+                <div class="caja-habilidades texto-cajas"><img src="img/logo-css.svg"><p>CSS</p></div>
+                <div class="caja-habilidades texto-cajas"><img src="img/logo-javascript.svg"><p>JavaScript</p></div>
+                <div class="caja-habilidades texto-cajas"><img src="img/logo-git.svg"><p>Git</p></div>
+                <div class="caja-habilidades texto-cajas"><img src="img/logo-adobe.svg"><p>Suite Adobe</p></div>
+                <div class="caja-habilidades texto-cajas"><img src="img/logo-figma.svg"><p>Figma</p></div>
+                <div class="caja-habilidades texto-cajas"><img src="img/logo-inteligencia.svg"><p>Inteligencia<br>Artificial</p></div>
+                <div class="caja-habilidades texto-cajas"><img src="img/logo-fotografia.svg"><p>Fotografía</p></div>
+                <div class="caja-habilidades texto-cajas"><img src="img/logo-marketing.svg"><p>Marketing</p></div>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor-general-experiencia"> <!--DIV que recoge todos los div con experiencia-->
+            <h2 class="titulos-texto texto-centrado">Experiencia laboral</h2>
+            <div class="contenedor-experiencia-comunes"> <!--DIV individual con su experiencia-->
+                <img src="img/logo_nuo.svg">
+                <h2 class="texto-oficio">Diseñador gráfico y web</h2>
+                <div class="contenedor-empresa-tiempo">
+                    <p class="texto-empresa-tiempo">NÜO Planet</p>
+                    <p class="texto-empresa-tiempo">Mar. 2022 - Jun. 2023</p>
+                </div>
+                <p class="texto-interior-experiencia">En mi rol como diseñador gráfico y web tuve la  oportunidad de desempeñar un papel integral en el diseño de páginas web,  landing pages, blogs, newsletter y publicaciones en redes sociales. Sin  embargo, mi enfoque principal y donde pude aplicar mi creatividad y  habilidades de diseño fue en la creación de catálogos corporativos y de  producto. Estos materiales eran fundamentales para presentar los  productos de la empresa de manera clara y atractiva, brindando  información detallada y visualmente atractiva para los clientes.</p>
+            </div>
+            <div class="contenedor-experiencia-comunes"> <!--DIV individual con su experiencia-->
+                <img src="img/logo_vivelibro.svg">
+                <h2 class="texto-oficio">Editor</h2>
+                <div class="contenedor-empresa-tiempo">
+                    <p class="texto-empresa-tiempo">ViveLibro</p>
+                    <p class="texto-empresa-tiempo">Sept. 2021 - Dic. 2021</p>
+                </div>
+                <p class="texto-interior-experiencia">Diseño de cubiertas para libros, cartelería y  banners, manejo del stock de los materiales del almacén y su debida  gestión en el sistema CRM. También publicaba los libros a  la venta en las distintas plataformas digitales. Además de proporcionar  un trato único con los clientes para la solución de problemas y  resolución de todas aquellas cuestiones que puedan tener.</p>
+            </div>
+            <div class="contenedor-experiencia-comunes"> <!--DIV individual con su experiencia-->
+                <img src="img/logo_truyol.svg">
+                <h2 class="texto-oficio">Técnico de preprensa</h2>
+                <div class="contenedor-empresa-tiempo">
+                    <p class="texto-empresa-tiempo">Truyol</p>
+                    <p class="texto-empresa-tiempo">Mar. 2019 - Jun. 2019</p>
+                </div>
+                <p class="texto-interior-experiencia">Preparación de todo tipo de documentos para su  correcta impresión, tales como las tarjetas de visita, flyers, roll-ups y  cartelería, además de diferentes tipos de acabados finales, como  troquelados, barniz, barniz reserva, barniz 3D, estampados plateados y  dorados...</p>
+            </div>
+        </div>
+    </section>
+    <section id="Seccion-Portfolio" class="Seccion-column color-gris"><!--Seccion Portfolio-->
+        <div class="contenedor-general-portfolio">
+            <h2 class="titulos-texto">Portfolio</h2>
+            <div class="galeria-portfolio"> <!--Galería de portfolio-->
+                <a href="img/Mockup_pagina_web.jpg" class="imagen-galeria1"><img src="img/Mockup_pagina_web.jpg" alt="Mockup con diferentes pantallas del rediseño de la página web de Cave Monaja"></a>
+                <a href="img/mockup_libro_niño_oso (1).jpg" class="imagen-galeria2"><img src="img/mockup_libro_niño_oso (1).jpg" alt="Mockup del rediseño del libro El niño que quería matar, de Lolita Bosch "></a>
+                <a href="img/edit_manipulacion_fotografica 1.jpg" class="imagen-galeria3"><img src="img/edit_manipulacion_fotografica 1.jpg" alt="Montaje fotográfico que muestra a un hombre vestido en traje sujetando un paraguas mientras que se sumerge en el océano, con lluvia y tormenta de fondo"></a>
+                <a href="img/Publicaciones_redes_sociales_1.jpg" class="imagen-galeria4"><img src="img/Publicaciones_redes_sociales_1.jpg" alt="Conjunto de imágenes publicitarias para redes sociales"></a>
+                <a href="img/Mockup_libro_manga_peq.jpg" class="imagen-galeria5"><img src="img/Mockup_libro_manga_peq.jpg" alt="Mockup de un proyecto de libro sobre el manga"></a>
+                <a href="img/mockup_imagen_delantera_libro.jpg" class="imagen-galeria6"><img src="img/mockup_imagen_delantera_libro.jpg" alt="Mockup del rediseño del libro La vida negociable, de Luis Landero"></a>
+                <a href="img/imagen_gorra-2.jpg" class="imagen-galeria7"><img src="img/imagen_gorra-2.jpg" alt="Mockup de una gorra con un diseño de serpiente estilo mascota de equipo"></a>
+                <a href="img/Mockup_camiseta1.jpg" class="imagen-galeria8"><img src="img/Mockup_camiseta1.jpg" alt="Mockup del diseño de una camiseta que pone Dgimon Park al estilo Jurassic Park"></a>
+                <a href="img/Cuadros_tipograficos.jpg" class="imagen-galeria9"><img src="img/Cuadros_tipograficos.jpg" alt="Conjunto de cuadros, uno que pone gato, otro que pone perro y otro que pone España, formado por palabras. También hay un cuadro con el Lamborghini Gallardo, y un póster tipográfico de la Feria del Libro de Madrid"></a>
+            </div>
+            <div class="modal-galeria-portfolio"> <!--modal que tapa toda la pantalla con la imagen y los botones-->
+                <button class="boton-redondo boton-modal-anterior"><img src="img/icono_flecha_izquierda.svg"></img></button>
+                <img class="modal-galeria-portfolio-imagen" src="">
+                <button class="boton-redondo boton-modal-siguiente"><img src="img/icono_flecha_derecha.svg"></img></button>
+                <button class="boton-redondo boton-modal-cerrar"><img src="img/icono-cerrar.svg"></img></button>
+            </div>
+            <p class="parrafos-texto max-width-410px texto-centrado margin-bottom-28px">Si quieres ver mas proyectos en los que he trabajado, puedes descargar mi portfolio en formato PDF</p>
+            <a class="boton-azul" href="descargas/Daniel Guio Sánchez - Portfolio.pdf" download="Daniel Guio Sánchez - Portfolio">Portfolio<img class="margin-left4px" src="img/icono-descarga.svg"></a> <!--Botón de descarga de Portfolio-->
+    </div>
+    </section>
+    <section id="Seccion-Contacto" class="Seccion-column color-gris-oscuro"> <!--Sección contacto-->
+        <div class="contenedor-contacto">
+            <h2 class="titulos-texto">Contacto</h2>
+            <p class="parrafos-texto texto-centrado max-width-margin-bottom">¿Tienes una propuesta de proyecto o una oferta de trabajo?
+                <br>
+                No dudes en ponerte en contacto conmigo.
+                <br><br>
+                <a class="estilo-enlaces-contacto" href="mailto:danielguiosanchez00@hotmail.com"><img src="img/icono-mail.svg">danielguiosanchez00<wbr>@hotmail.com</a>
+                <a class="estilo-enlaces-contacto" target="_blank" href="https://www.linkedin.com/in/dise%C3%B1ador-danielgsanchez/"><img src="img/logo-linkedin.svg">Daniel Guio Sánchez</a>
+            </p>
+            <a class="boton-azul" href="mailto:danielguiosanchez00@hotmail.com"><img class="margin-right-9px" src="img/icono-mail.svg">Enviar correo</a> <!--boton de enviar correo-->
+        </div>
+    </section>
+    <footer> <!--Footer de la página-->
+        <div class="contenedor-footer">
+            <p><a class="logo-footer" href="#">Daniel</a></p> <!--logo del portfolio-->
+            <nav class="nav-footer"> <!--nav con los enlaces-->
+                <ul>  <!-- lista desordenada que navega a las secciones-->
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#Seccion-SobreMi">Sobre mí</a></li>
+                    <li><a href="#Seccion-Portfolio">Portfolio</a></li>
+                    <li><a href="#Seccion-Contacto">Contacto</a></li>
+                </ul>
+            </nav>
+            <p class="texto-footer">© 2024, Daniel</p>
+        </div>
+    </footer>
+</body>
+</html>
